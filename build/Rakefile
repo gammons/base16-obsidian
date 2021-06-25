@@ -1,0 +1,16 @@
+desc "Generates all of the thems by concatenating each theme's colors with the base16-obsidian.css file"
+task :generate do
+  theme = File.read("base16-obsidian.css")
+
+  Dir.glob("themes/*.css").each do |file|
+    filename = file.split("/").last
+    color_info = File.read(file)
+
+    n = File.open("../#{filename}", "w")
+    n << color_info
+    n << "\n"
+    n << theme
+  end
+end
+
+task default: :generate
