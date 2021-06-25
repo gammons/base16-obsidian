@@ -59,4 +59,4 @@ Choose this method if you'd like to stay up-to-date with the base16-themes repo.
 
 ![image](https://user-images.githubusercontent.com/38560/123446709-214ed000-d5a7-11eb-97e9-e367b14faa1e.png)
 
-Over 150 themes are included!
+Over 130 themes are included!
