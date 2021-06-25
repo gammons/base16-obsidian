@@ -1,3 +1,27 @@
+:root {
+  --base00: #2b2b2b; /* dark background */
+  --base01: #323232; /* lighter background */
+  --base02: #323232; /* Selection background */
+  --base03: #606366; /* Comments, Invisibles, line highlighting */
+
+  --base04: #a4a3a3; /* Dark foreground */
+  --base05: #a9b7c6; /* Default foreground */
+  --base06: #ffc66d; /* Light foreground */
+  --base07: #ffffff; /* Light background */
+
+  --base08: #4eade5; /* Red */
+  --base09: #689757; /* orange */
+  --base0A: #bbb529; /* yellow */
+  --base0B: #6a8759; /* Green */
+  --base0C: #629755; /* Cyan */
+  --base0D: #9876aa; /* Blue */
+  --base0E: #cc7832; /* purple */
+  --base0F: #808080; /* brown */
+
+  --font-stack: "Inconsolata"
+}
+
+
 /*************************
  * Font selection
 *************************/
