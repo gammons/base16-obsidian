@@ -11,7 +11,7 @@ It includes 131 variations of the base16 theme.
 
 
 ## Using your own font
-1. I don't make any assumptions about your font choice.  Each of these themes assumes there is a `--font-family-editor` and `--font-family-preview` variables.  You can add a CSS snippet that defines the font you want to use, smiliar to something below:
+This project doesn't make any assumptions about your font choice.  Each of these themes assumes there is a `--font-family-editor` and `--font-family-preview` variables.  You can add a CSS snippet that defines the font you want to use, smiliar to something below:
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
