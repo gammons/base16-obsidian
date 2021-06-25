@@ -6,31 +6,27 @@ It includes 131 variations of the base16 theme.
 
 ## Installation
 
-#### The easy way
+1. Clone this repo.
+2. Copy all of the .css files to `<vault>/.obsidian/themes` folder.
 
-Choose this method if you're not familiar with git, symbolic links, etc.
 
-1. Copy `base16-obsidian.css` into your `<vault>/.obsidian/themes` directory
-2. Choose some (or all) of the base16 themes from the [base16-themes][themes] directory, and copy them into your `<vault>/.obsidian/snippets` directory.
+## Using your own font
+1. I don't make any assumptions about your font choice.  Each of these themes assumes there is a `--font-family-editor` and `--font-family-preview` variables.  You can add a CSS snippet that defines the font you want to use, smiliar to something below:
 
-#### The recommended way
+```css
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-Choose this method if you'd like to stay up-to-date with the base16-themes repo.
-
-1. Clone this repo into your `<vault>/.obsidian/themes` directory.
-2. Create a symbolic link to put the base16-obsidian CSS file into the themes dir: 
-
-`ln -s <vault>/.obsidian/themes/base16-obsidian/base16-obsidian.css <vault>/.obsidian/themes/base16-obsidian.css`
-
-3. Copy some (or all) of the base16 themes from the themes directory into your snippets dir:
-
-`cp <vault>/.obsidian/themes/base16-obsidian/base16-themes/*.css <vault>/.obsidian/snippets`
+body {
+  --font-family-editor: Roboto Mono, monospace;
+  --font-family-preview: Roboto Mono, monospace;
+}
+```
 
 ## How to use in Obsidian
 
 1. In obsidian, go to Settings -> Appearance
-2. Set your color scheme to dark, your theme to `base16-obisidan`.
-3. Enable **one** base16-related snippet to see the theme.
+2. Set your color scheme to dark
+3. Choose one of the 131 base16 themes to use.
 
 [o]: https://obsidian.md
 [b16]: https://github.com/chriskempson/base16
