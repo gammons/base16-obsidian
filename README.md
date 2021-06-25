@@ -1,7 +1,5 @@
 # Base16 colors for obsidian
 
-![image](https://user-images.githubusercontent.com/38560/123444272-b8feef00-d5a4-11eb-8917-7a82375b675f.png)
-
 This is the [Base16][b16] CSS theme for the [Obsidian notes application][o].
 
 It includes 131 variations of the base16 theme.
@@ -41,4 +39,24 @@ Choose this method if you'd like to stay up-to-date with the base16-themes repo.
 
 ## Some examples:
 
+#### ia-dark
 
+![image](https://user-images.githubusercontent.com/38560/123446102-8bb34080-d5a6-11eb-9ba8-6cb283abf850.png)
+
+#### Nord
+
+![image](https://user-images.githubusercontent.com/38560/123446243-b0a7b380-d5a6-11eb-8195-b366ebde02bb.png)
+
+#### Solarized-dark
+
+![image](https://user-images.githubusercontent.com/38560/123446442-e3ea4280-d5a6-11eb-8fc2-913a2723a443.png)
+
+#### Solarized-light
+
+![image](https://user-images.githubusercontent.com/38560/123446520-f6647c00-d5a6-11eb-99be-55520a55df6e.png)
+
+#### Eighties
+
+![image](https://user-images.githubusercontent.com/38560/123446709-214ed000-d5a7-11eb-97e9-e367b14faa1e.png)
+
+Over 150 themes are included!
