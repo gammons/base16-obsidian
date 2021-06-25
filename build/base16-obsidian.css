@@ -114,7 +114,7 @@
   color: var(--base0D);
 }
 
-.cm-strong, .markdown-preview-view em {
+.cm-strong, .markdown-preview-view strong {
   color: var(--base09);
 }
 
