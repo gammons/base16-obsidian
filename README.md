@@ -9,7 +9,6 @@ It includes 131 variations of the base16 theme.
 1. Clone this repo.
 2. Copy all of the .css files to `<vault>/.obsidian/themes` folder.
 
-
 ## Using your own font
 This project doesn't make any assumptions about your font choice.  Each of these themes assumes there is a `--font-family-editor` and `--font-family-preview` variables.  You can add a CSS snippet that defines the font you want to use, smiliar to something below:
 
@@ -27,6 +26,10 @@ body {
 1. In obsidian, go to Settings -> Appearance
 2. Set your color scheme to dark
 3. Choose one of the 131 base16 themes to use.
+
+## Development
+
+There is a `build/` directory that allows you to make changes en masse to all of the themes.  Make changes to `base16-obsidian.css`, and then run `rake`.  It will then populate all of the themes in the parent directory with the new changes.
 
 [o]: https://obsidian.md
 [b16]: https://github.com/chriskempson/base16
