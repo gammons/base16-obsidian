@@ -175,3 +175,12 @@
   color: var(--base07) !important;
   background-color: var(--base01) !important;
 }
+
+/*************************
+ * Cursor
+*************************/
+
+.CodeMirror-cursors {
+  color: var(--base0B);
+  z-index: 5 !important /* fixes a bug where cursor is hidden in code blocks */
+}
