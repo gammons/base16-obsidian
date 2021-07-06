@@ -7,7 +7,7 @@ It includes 131 variations of the base16 theme.
 ## Installation
 
 1. Clone this repo.
-2. Copy all of the .css files to `<vault>/.obsidian/themes` folder.
+2. Copy all of the .css files from the root of this repo to `<vault>/.obsidian/themes` folder.
 
 ## Using your own font
 This project doesn't make any assumptions about your font choice.  Each of these themes assumes there is a `--font-family-editor` and `--font-family-preview` variables.  You can add a CSS snippet that defines the font you want to use, smiliar to something below:
